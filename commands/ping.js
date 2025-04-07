@@ -14,7 +14,7 @@ async function pingCommand(sock, chatId) {
         const end = Date.now();
         const ping = end - start;
 
-        const message = `*🤖 Bot Status*\n\n` +
+        const message = `*👸❤️ Kylie Status*\n\n` +
                        `*⚡ Response Time:* ${ping}ms\n` +
                        `*💻 Platform:* ${platform}\n` +
                        `*🔄 Uptime:* ${formatTime(uptime)}\n` +
