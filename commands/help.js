@@ -4,18 +4,19 @@ const path = require('path');
 
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
-╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+╔═❤️════════║👸║════════❤️═╗
+   *シ︎シ︎シ︎ ${settings.botName || '🧸❤️👸QUEEN_KYLIE-V3 👸❤️🧸'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   by ${settings.botOwner || 'Cadillac Cylee ❤️🧸'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
-*Available Commands:*
+❤️👸*KYLIE-MENU*👸❤️
 
-╔═══════════════════╗
-🌐 *General Commands*:
-║ ➤ .help or .menu
+╔═══════════════════
+║❤️👸*Queen_Kylie-V3 Commands:*👸❤️
+║ ➤ .help 
+║ ➤ .menu 
 ║ ➤ .ping
 ║ ➤ .alive
 ║ ➤ .tts <text>
@@ -34,7 +35,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎨 *Image/Sticker Commands*:
+║ ❤️👸*Image/Sticker Commands*:👸❤️
 ║ ➤ .blur <image>
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
@@ -44,7 +45,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝   
 
 ╔═══════════════════╗
-🛠️ *Admin Commands*:
+║ ❤️👸*Admin Commands*:❤️👸
 ║ ➤ .ban @user
 ║ ➤ .promote @user
 ║ ➤ .demote @user
@@ -64,14 +65,14 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🛠️ *Owner Commands*:
+║❤️👸*Owner Commands*:👸❤️
 ║ ➤ .mode
 ║ ➤ .autostatus
 ║ ➤ .clearsession
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🔗 *Github Commands:*
+║❤️👸*Github Commands:*👸❤️
 ║ ➤ .git
 ║ ➤ .github
 ║ ➤ .sc
@@ -80,7 +81,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎮 *Game Commands*:
+║❤️👸*Game Commands*:👸❤️
 ║ ➤ .tictactoe @user
 ║ ➤ .hangman
 ║ ➤ .guess <letter>
@@ -91,7 +92,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎯 *Fun Commands*:
+║❤️👸*Fun Commands*:❤️👸
 ║ ➤ .compliment @user
 ║ ➤ .insult @user
 ║ ➤ .flirt 
@@ -101,7 +102,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎯 *Downloader*:
+❤️👸 *Downloader*:👸❤️
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
 ╚═══════════════════╝
