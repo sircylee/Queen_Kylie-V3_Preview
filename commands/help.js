@@ -5,16 +5,16 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═❤️══════║👸║══════❤️═╗
-   *シ︎シ︎シ︎ ${settings.botName || '🧸❤️👸QUEEN_KYLIE-V3 👸❤️🧸'}*  
+   *${settings.botName || '❤️👸QUEEN_KYLIE-V3 👸❤️'}*  
    *Version*: *${settings.version || '1.0.0'}*
    *Developer*: ${settings.botOwner || '*Cadillac Cylee ❤️🧸*'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
-*❤️👸KYLIE-MENU👸❤️*
+❤️👸𝗞𝗬𝗟𝗜𝗘_𝗠𝗘𝗡𝗨👸❤️
 
 ╔═══════════════════
-║*❤️👸BOT_MENU👸❤️*
+║❤️👸𝗕𝗢𝗧_𝗠𝗘𝗡𝗨👸❤️
 ║ ➤ .help 
 ║ ➤ .menu 
 ║ ➤ .ping
@@ -35,7 +35,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║*❤️👸IMAGE/STICKER👸❤️*
+║❤️👸𝗜𝗠𝗔𝗚𝗘/𝗦𝗧𝗜𝗖𝗞𝗘𝗥👸❤️
 ║ ➤ .blur <image>
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
@@ -45,7 +45,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝   
 
 ╔═══════════════════╗
-║*❤️👸GROUP👸❤️*
+║❤️👸𝗚𝗥𝗢𝗨𝗣👸❤️
 ║ ➤ .ban @user
 ║ ➤ .promote @user
 ║ ➤ .demote @user
@@ -65,14 +65,14 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║*❤️👸OWNER👸❤️*
+║❤️👸𝗢𝗪𝗡𝗘𝗥👸❤️
 ║ ➤ .mode
 ║ ➤ .autostatus
 ║ ➤ .clearsession
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║*❤️👸GITHUB👸❤️*
+║❤️👸𝗚𝗜𝗧𝗛𝗨𝗕👸❤️
 ║ ➤ .git
 ║ ➤ .github
 ║ ➤ .sc
@@ -81,7 +81,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║*❤️👸GAME👸❤️*
+║❤️👸𝗚𝗔𝗠𝗘👸❤️
 ║ ➤ .tictactoe @user
 ║ ➤ .hangman
 ║ ➤ .guess <letter>
@@ -92,7 +92,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║*❤️👸FUN👸❤️*
+║❤️👸𝗙𝗨𝗡👸❤️
 ║ ➤ .compliment @user
 ║ ➤ .insult @user
 ║ ➤ .flirt 
@@ -102,12 +102,12 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-❤️👸*Downloader*👸❤️
+❤️👸𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥👸❤️
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
 ╚═══════════════════╝
 
-Made with Love by Cadillac Cylee :👸❤️`;
+𝗠𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 𝙇𝙤𝙫𝙚 𝙗𝙮 𝘾𝙖𝙙𝙞𝙡𝙡𝙖𝙘 𝘾𝙮𝙡𝙚𝙚 :👸❤️`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
