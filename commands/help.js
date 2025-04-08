@@ -4,17 +4,17 @@ const path = require('path');
 
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
-╔═❤️════════║👸║════════❤️═╗
+╔═❤️══════║👸║══════❤️═╗
    *シ︎シ︎シ︎ ${settings.botName || '🧸❤️👸QUEEN_KYLIE-V3 👸❤️🧸'}*  
-   Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Cadillac Cylee ❤️🧸'}
+   *Version*: *${settings.version || '1.0.0'}*
+   *Developer*: ${settings.botOwner || '*Cadillac Cylee ❤️🧸*'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
-❤️👸*KYLIE-MENU*👸❤️
+*❤️👸KYLIE-MENU👸❤️*
 
 ╔═══════════════════
-║❤️👸*Queen_Kylie-V3 Commands:*👸❤️
+║*❤️👸BOT_MENU👸❤️*
 ║ ➤ .help 
 ║ ➤ .menu 
 ║ ➤ .ping
@@ -35,7 +35,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║ ❤️👸*Image/Sticker Commands*:👸❤️
+║*❤️👸IMAGE/STICKER👸❤️*
 ║ ➤ .blur <image>
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
@@ -45,7 +45,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝   
 
 ╔═══════════════════╗
-║ ❤️👸*Admin Commands*:❤️👸
+║*❤️👸GROUP👸❤️*
 ║ ➤ .ban @user
 ║ ➤ .promote @user
 ║ ➤ .demote @user
@@ -65,14 +65,14 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║❤️👸*Owner Commands*:👸❤️
+║*❤️👸OWNER👸❤️*
 ║ ➤ .mode
 ║ ➤ .autostatus
 ║ ➤ .clearsession
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║❤️👸*Github Commands:*👸❤️
+║*❤️👸GITHUB👸❤️*
 ║ ➤ .git
 ║ ➤ .github
 ║ ➤ .sc
@@ -81,7 +81,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║❤️👸*Game Commands*:👸❤️
+║*❤️👸GAME👸❤️*
 ║ ➤ .tictactoe @user
 ║ ➤ .hangman
 ║ ➤ .guess <letter>
@@ -92,7 +92,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-║❤️👸*Fun Commands*:❤️👸
+║*❤️👸FUN👸❤️*
 ║ ➤ .compliment @user
 ║ ➤ .insult @user
 ║ ➤ .flirt 
@@ -102,12 +102,12 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-❤️👸 *Downloader*:👸❤️
+❤️👸*Downloader*👸❤️
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
 ╚═══════════════════╝
 
-Join our channel for updates:`;
+Made with Love by Cadillac Cylee :👸❤️`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
