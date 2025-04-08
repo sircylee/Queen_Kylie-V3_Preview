@@ -74,8 +74,8 @@ const { autoStatusCommand, handleStatusUpdate } = require('./commands/autostatus
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A";
-global.ytch = "Mr Unique Hacker";
+global.channelLink = "https://whatsapp.com/channel/0029VbAlkDbAojYogRivBq0X";
+global.ytch = "*kylieXcylee*";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
