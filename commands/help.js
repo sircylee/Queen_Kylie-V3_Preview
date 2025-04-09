@@ -123,7 +123,7 @@ async function helpCommand(sock, chatId, channelLink) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD by Mr Unique Hacker',
+                        newsletterName: 'Queen_Kylie-V3',
                         serverMessageId: -1
                     }
                 }
@@ -137,7 +137,7 @@ async function helpCommand(sock, chatId, channelLink) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD by Mr Unique Hacker',
+                        newsletterName: 'Queen_Kylie-V3',
                         serverMessageId: -1
                     } 
                 }
