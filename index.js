@@ -1,6 +1,6 @@
 /**
- * Knight Bot - A WhatsApp Bot
- * Copyright (c) 2024 Professor
+ * QUEEN_KYLIE-V3 - A WhatsApp Bot
+ * Copyright (c) 2024 kylieXcylee
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the MIT License.
@@ -117,7 +117,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363161513685998@newsletter',
-                                newsletterName: 'KnightBot MD',
+                                newsletterName: 'Queen_Kylie-V3',
                                 serverMessageId: -1
                             }
                         }
@@ -198,7 +198,7 @@ async function startXeonBotInc() {
             // Send message to bot's own number
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
-                text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Kylie is online and ready.
+                text: `🤖 Bot Connected Successfully👸❤️!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Kylie is online and ready.👸❤️
                 \n Give a Star ⭐ to our bot:\n https://github.com/sircylee/Queen_Kylie-V3\n ✅Make sure to join below channel`,
                 contextInfo: {
                     forwardingScore: 999,
