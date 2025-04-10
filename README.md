@@ -1,6 +1,6 @@
 # 🤖 QUEEN_KYLIE-V3
 
-Introducing kylieXcylee's third version of the QUEEN_KYLIE WHATSAPP BOT, Queen_Kylie-V3 - Your all-in-one Whatsapp companion. this cutting-edge bot offers a wide range of features to simplify your life, from AI-powered chat and task management to personalized news updates, fun games, and more. With Queen_Kylie-V3, you'll have a trusted sidekick at your fingertips, ready to assist you 24/7. Experience the future of Whatsapp bots today!!!
+Introducing kylieXcylee's third version of the QUEEN_KYLIE WHATSAPP BOT, Queen_Kylie-V3 - Your all-in-one Whatsapp companion. This cutting-edge bot offers a wide range of features to simplify your life, from AI-powered chat and task management to personalized news updates, fun games, and more. With Queen_Kylie-V3, you'll have a trusted sidekick at your fingertips, ready to assist you 24/7. Experience the future of Whatsapp bots today!!!
 
 <div align="center"> 
   <a href="https://youtube.com/sircylee999"> 
