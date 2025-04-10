@@ -1,5 +1,5 @@
 {
-    "name": "KnightBot-MD",
+    "name": "QUEEN_KYLIE-V3",
     "description": "Advanced WhatsApp Bot with Multiple Features",
     "keywords": [
         "bot",
@@ -8,7 +8,7 @@
         "knightbot",
         "multi-device"
     ],
-    "repository": "https://github.com/mruniquehacker/Knightbot-MD",
+    "repository": "https://github.com/sircylee/Queen_Kylie-V3",
     "stack": "container",
     "env": {
         "SESSION_ID": {
@@ -16,7 +16,7 @@
             "required": false
         },
         "OWNER_NUMBER": {
-            "description": "Your WhatsApp number (e.g., 911234567890)",
+            "description": "Your WhatsApp number (e.g., 27855039725)",
             "required": false
         },
         "PREFIX": {
