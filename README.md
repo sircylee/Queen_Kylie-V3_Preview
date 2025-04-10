@@ -10,7 +10,7 @@ Introducing kylieXcylee's third version of the QUEEN_KYLIE WHATSAPP BOT, Queen_K
 
 <br>
 <p align="center">
-<a href="https://wa.me/27615045572"><img src="https://img.shields.io/badge/Contact Cadillac Cylee-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/27><img src835039725="https://img.shields.io/badge/Contact Cadillac Cylee-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://whatsapp.com/channel/0029VavkrOID38CSgcyfbM07"><img src="https://img.shields.io/badge/Join Official Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <p align="center">
 <img alt="Development" width="250" src="https://files.catbox.moe/zz41z0.png" /> </p> 
