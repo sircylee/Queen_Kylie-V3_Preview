@@ -1,12 +1,6 @@
 # 🤖 QUEEN_KYLIE-V3
 
-This is a WhatsApp bot built using the Baileys library for group management, including features like tagging all members, muting/unmuting, and many more. It's designed to help admins efficiently manage WhatsApp groups.
-
-<div align="center"> 
-  <a href="hps://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff0000&center=true&width=910&height=100&lines=QUEEN_KYLIE-V3;Multi+Device+Whatsapp+Bot;Created+By+kylieXcylee" alt="Typing SVG" />
-  </a> 
-</div> 
+Introducing kylieXcylee's third version of the QUEEN_KYLIE WHATSAPP BOT, Queen_Kylie-V3 - Your all-in-one Whatsapp companion. this cutting-edge bot offers a wide range of features to simplify your life, from AI-powered chat and task management to personalized news updates, fun games, and more. With Queen_Kylie-V3, you'll have a trusted sidekick at your fingertips, ready to assist you 24/7. Experience the future of Whatsapp bots today!!!
 
 <div align="center"> 
   <a href="https://youtube.com/sircylee999"> 
