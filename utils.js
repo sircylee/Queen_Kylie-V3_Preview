@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const os = require('os');
 
 // Session management
-function generateSessionId(prefix = 'KnightBot') {
+function generateSessionId(prefix = 'Queen_Kylie-V3') {
     const timestamp = Date.now();
     const random = crypto.randomBytes(4).toString('hex');
     return `${prefix}-${random}-${timestamp}`;
@@ -13,13 +13,13 @@ function generateSessionId(prefix = 'KnightBot') {
 // Get the proper temp directory path
 const getTempDir = () => {
     if (process.env.NODE_ENV === 'production') {
-        const tempDir = '/tmp/knightbot';
+        const tempDir = '/tmp/queen_kylie-v3';
         if (!fs.existsSync(tempDir)) {
             fs.mkdirSync(tempDir, { recursive: true });
         }
         return tempDir;
     }
-    return path.join(os.tmpdir(), 'knightbot');
+    return path.join(os.tmpdir(), 'queen_kylie-v3');
 };
 
 // Get session file path
